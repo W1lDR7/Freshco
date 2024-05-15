@@ -6,13 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="product.css">
+    <link rel="shortcut icon" type="x-icon" href="/images/logo 2.png">
     <script src="app.js" async></script>
     <title>Freshco</title>
 </head>
 <body>
-    <header>
-        <a href="/index.html"><img src="/images/logo w.png" alt=""></a>
+    <header class="header">
+
+        <a href="/index.html" class="logo"> <img src="/images/logo 1.png" alt=""> </a>
+
+        <nav class="navbar">
+            <a href="/index.html#home">Inicio</a>
+            <a href="/index.html#product">Productos</a>
+            <a href="/index.html#about">Nosotros</a>
+            <a href="/index.html#review">Reseñas</a>
+            <a href="/index.html#blog">blog</a>
+            <a href="/index.html#contact">contacto</a>
+        </nav>
+
+        <div class="icons">
+            
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
     </header>
+
+    <div class="carrito-back">
+        <img src="/images/fondop.avif" alt="">
+    </div>
     <section class="contenedor">
         <!-- Contenedor de elementos -->
         <div class="contenedor-items">
@@ -71,27 +92,45 @@
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
-                <span class="titulo-item">Salsa prego</span>
-                <img src="/images/Salsa prego.jpg" alt="" class="img-item">
+                <span class="titulo-item">Pan blanco</span>
+                <img src="/images/pan blanco.jpg" alt="" class="img-item">
+                <span class="precio-item">RD$80.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Queso amarillo</span>
+                <img src="/images/queso.png" alt="" class="img-item">
+                <span class="precio-item">RD$ 90.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Jamón</span>
+                <img src="/images/jamon.webp" alt="" class="img-item">
+                <span class="precio-item">RD$ 110.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Mantequilla (200 g)</span>
+                <img src="/images/mantequilla.jpg" alt="" class="img-item">
                 <span class="precio-item">RD$ 70.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
-                <span class="titulo-item">Salsa prego</span>
-                <img src="/images/Salsa prego.jpg" alt="" class="img-item">
+                <span class="titulo-item">Aceite de cocina</span>
+                <img src="/images/aceite.jpg" alt="" class="img-item">
                 <span class="precio-item">RD$ 70.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
-                <span class="titulo-item">Salsa prego</span>
-                <img src="/images/Salsa prego.jpg" alt="" class="img-item">
+                <span class="titulo-item">Café molido</span>
+                <img src="/images/cafe.jpg" alt="" class="img-item">
                 <span class="precio-item">RD$ 70.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
-                <span class="titulo-item">Salsa prego</span>
-                <img src="/images/Salsa prego.jpg" alt="" class="img-item">
-                <span class="precio-item">RD$ 70.00</span>
+                <span class="titulo-item">Coca Cola</span>
+                <img src="/images/cocacola.webp" alt="" class="img-item">
+                <span class="precio-item">RD$ 90.00</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
         </div>
@@ -147,5 +186,7 @@
             </div>
         </div>
     </section>
+
+    <script src="/script.js"></script>
 </body>
 </html>
